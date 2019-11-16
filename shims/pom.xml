@@ -287,6 +287,7 @@
       <module>hdp30</module>
       <module>emr521</module>
       <module>mapr60</module>
+      <module>dataproc125</module>
       <module>apache</module>
     </modules>
   </profile>
@@ -339,5 +340,16 @@
     </modules>
   </profile>
 
+  <profile>
+    <id>dataproc125</id>
+    <activation>
+      <property>
+        <name>!skipDefault</name>
+      </property>
+    </activation>
+    <modules>
+      <module>dataproc125</module>
+    </modules>
+  </profile>
 </profiles>
 </project>
